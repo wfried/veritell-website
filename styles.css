@@ -158,6 +158,11 @@ p {
     gap: 0.5rem;
 }
 
+.logo-icon {
+    height: 1.5em;
+    width: auto;
+}
+
 /* Hero Section */
 .hero {
     padding: var(--spacing-xl) 0;

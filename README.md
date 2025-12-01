@@ -14,3 +14,8 @@ A simple, static website showcasing Veritell's mission to help caregivers manage
 
 Simply open `index.html` in a browser or serve it with any static file server.
 
+
+
+
+
+
