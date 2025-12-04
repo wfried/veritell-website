@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting to Veritell...</title>
+  <script>
+    // Get the OAuth params from the URL
+    const params = window.location.search;
+    // Redirect to the native app
+    window.location.href = 'veritell://callback' + params;
+  </script>
+</head>
+<body>
+  <p>Redirecting to Veritell app...</p>
+  <p><a href="veritell://callback<?= params ?>">Click here if not redirected</a></p>
+</body>
+</html>
